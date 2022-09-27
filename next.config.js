@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: false,
+  swcMinify: true,
   eslint: {
-    dirs: ['pages', 'Components'] //or ['pages', 'hooks']
+    dirs: ['.'] //or ['pages', 'hooks']
   }
 }
 
